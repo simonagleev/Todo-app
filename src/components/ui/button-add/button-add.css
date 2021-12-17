@@ -1,0 +1,21 @@
+.button-add {
+    width: 64px;
+    height: 64px;
+    border-radius: 90px;
+    box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.33);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow .3s ease-in-out;
+    margin-right: 16px;
+
+}
+
+.button-add:hover {
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.33);
+    cursor: pointer;
+    transition: box-shadow .3s ease-in-out;
+}
+
+
+

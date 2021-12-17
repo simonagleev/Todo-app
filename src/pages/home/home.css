@@ -1,0 +1,14 @@
+.home {
+    width: 375px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.home>:last-child {
+    align-self: flex-end;
+    margin-bottom: 15px;
+}

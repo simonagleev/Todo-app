@@ -1,0 +1,17 @@
+.new-task {
+
+}
+.new-task-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.new-task-body {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+

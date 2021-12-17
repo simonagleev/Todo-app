@@ -1,0 +1,10 @@
+.app {
+    width: 375px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.app>:last-child {
+
+}

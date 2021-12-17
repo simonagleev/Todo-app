@@ -1,0 +1,16 @@
+.input-add {
+    width: 271px;
+
+
+}
+
+input {
+    border: none;
+    outline: none;
+    height: 100%;
+}
+
+.input-dark {
+    background: #333;
+
+}

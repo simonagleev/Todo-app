@@ -1,0 +1,41 @@
+.switcher-button{
+
+
+}
+
+input[type='checkbox']{
+    position: relative;
+    width: 30px;
+    height: 15px;
+    -webkit-appearance: none;
+    outline: none;
+    background: #777777;
+    border-radius: 20px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+input:checked[type='checkbox'] {
+    background: #bdc6c2;
+
+}
+input[type='checkbox']:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 90px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border: 1px solid #777777;
+    transition: .5s;
+    transform: scale(1.1);
+    box-sizing: border-box;
+}
+
+input:checked[type='checkbox']:before {
+    left: 15px;
+}
+
+

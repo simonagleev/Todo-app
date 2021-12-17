@@ -1,0 +1,30 @@
+.setting-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dadada;
+    padding: 18px 0px 18px 0px;
+    margin: 0 8px 0 16px;
+    transition: .3s;
+}
+
+.setting-item-text {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #333333;
+    transition: .3s;
+}
+
+.dark {
+    background: #333;
+    color: #fff;
+    transition: .3s;
+}
+
+.dark-text {
+    color: #fff;
+    transition: 1.3s;
+}
