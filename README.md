@@ -1,5 +1,5 @@
 ---
-permalink: /index.html
+permalink: /public/index.html
 ---
 
 # Getting Started with Create React App
