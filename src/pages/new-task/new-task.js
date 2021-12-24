@@ -44,7 +44,10 @@ export const NewTask = () => {
             </div>
             <div className={'new-task-body'}>
                 <TogglerButton />
-                <InputAdd setInputValue={setInputValue} />
+                <InputAdd
+                  setInputValue={setInputValue}
+                  onKeyUp={onAddNewTask}
+                />
                 <TrashBtn />
             </div>
         </div>

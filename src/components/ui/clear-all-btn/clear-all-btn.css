@@ -1,0 +1,26 @@
+.clear-all-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.clear-btn {
+    color: #f3f3f3;
+    background-color: #006CFF;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    transition: .3s;
+}
+
+.dark-mode-btn {
+    background-color: rgba(215, 227, 255, 0.97);
+    color: #333;
+    transition: .3s;
+}

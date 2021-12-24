@@ -1,8 +1,14 @@
+.setting-item-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .setting-item {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #dadada;
-    padding: 18px 0px 18px 0px;
+    padding: 18px 0 18px 0;
     margin: 0 8px 0 16px;
     transition: .3s;
 }
@@ -28,3 +34,11 @@
     color: #fff;
     transition: 1.3s;
 }
+
+.clear-section {
+    display: flex;
+    padding: 18px 0 18px 0;
+    margin: 0 8px 0 16px;
+
+}
+

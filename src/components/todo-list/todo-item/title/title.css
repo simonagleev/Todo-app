@@ -7,5 +7,12 @@
     letter-spacing: -0.02em;
     color: #333333;
     width: 271px;
-
+    transition: 1s;
 }
+
+.task-is-done {
+    opacity: .5;
+    text-decoration: line-through #5e00ff;
+    transition: .6s;
+}
+

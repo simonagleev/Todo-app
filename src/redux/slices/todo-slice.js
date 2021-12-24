@@ -64,6 +64,22 @@ export const todoSlice = createSlice({
             for (let i = indexRemove; i < state.todoList.length; i++) {
                 state.todoList[i].id = state.todoList[i].id -1
             }
+        },
+
+        clearAllTasks: (state, action) => {
+            state.todoList.splice(0)
+
+        },
+        clearAllCompletedTasks: (state, action) => {
+            for (let i = 0; i < state.todoList.length; i++) {
+                if (state.todoList[i].isDone === true) {
+                    state.todoList.splice(i, 1)
+                    i -= 1
+                }
+            }
+            for (let j = 0; j < state.todoList.length; j++) {
+                state.todoList[j].id = j+1
+            }
         }
     }
 })
@@ -82,6 +98,8 @@ export const {
     taskDone,
     addTask,
     removeTask,
+    clearAllTasks,
+    clearAllCompletedTasks,
 } = todoSlice.actions
 
 

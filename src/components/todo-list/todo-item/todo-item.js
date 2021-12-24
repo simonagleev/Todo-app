@@ -8,7 +8,6 @@ import {removeTask, taskDone} from "../../../redux/slices/todo-slice";
 
 
 export const TodoItem = ({text, isToggle, id}) => {
-
     const dispatch = useDispatch()
 
     const changing = (id) => {
@@ -17,10 +16,6 @@ export const TodoItem = ({text, isToggle, id}) => {
         }
         dispatch(taskDone(payload))
     }
-
-    // const onCheck = () => {
-    //     changing()
-    // }
 
     const onRemove = (id) => {
         const payload = {
@@ -36,7 +31,10 @@ export const TodoItem = ({text, isToggle, id}) => {
                 onHandler={() => changing(id)}
                 isToggle={isToggle}
             />
-            <Title text={text}/>
+            <Title
+              text={text}
+              isToggle={isToggle}
+            />
             <TrashBtn onHandler={() => onRemove(id)}/>
         </div>
     )
